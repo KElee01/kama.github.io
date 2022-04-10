@@ -2367,14 +2367,14 @@ input[type="radio"]+label:before {
 /* Image */
 
 .image {
-    border-radius: 0.25em;
+    border-radius: 0.5em;
     border: 0;
     display: inline-block;
     position: relative;
 }
 
 .image img {
-    border-radius: 0.25em;
+    border-radius: 0.5em;
     display: block;
 }
 
@@ -3164,9 +3164,8 @@ body.is-preload .wrapper.fade>.inner {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    background-color: #5e42a6;
     cursor: default;
-    padding: 1.75em 5em;
+    padding: 3em 5em 0em;
 }
 
 #header>.title {
@@ -3182,7 +3181,7 @@ body.is-preload .wrapper.fade>.inner {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 
 #header>nav>ul {
@@ -3202,11 +3201,11 @@ body.is-preload .wrapper.fade>.inner {
 }
 
 #header>nav>ul>li a {
-    border: 0;
-    color: rgba(255, 255, 255, 0.35);
+    border: 1;
+    color: rgb(255, 255, 255);
     display: inline-block;
-    font-size: 0.8em;
-    font-weight: normal;
+    font-size: 1em;
+    font-weight: bold;
     letter-spacing: 0.25em;
     text-transform: uppercase;
 }
