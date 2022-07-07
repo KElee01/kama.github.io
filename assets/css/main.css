@@ -207,12 +207,18 @@ body.is-preload *:after {
 
 /* Type */
 
+@font-face {
+    font-family: Emoji;
+    src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
+    unicode-range: U+1F000-1F644, U+203c-3299;
+}
+
 body,
 input,
 select,
 textarea {
     color: rgba(255, 255, 255, 0.55);
-    font-family: PingFangSC-Regular, "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Emoji;
     font-size: 16.5pt;
     font-weight: normal;
     line-height: 1.75;
